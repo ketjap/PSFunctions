@@ -14,6 +14,12 @@ function Get-MaxLengthFromPSObject {
         Get-MaxLengthFromPSObject -InputObject $CSVFile
 
         This will check all content of the csv file and output the maximum length per column.
+    
+    .LINK
+        https://github.com/ketjap/PSFunctions
+
+    .NOTES
+        Author: Sander Siemonsma
     #>
 
     param (
